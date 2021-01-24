@@ -1,106 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-	<ThingDef ParentName="BuildingBase">
-		<defName>MAO_MechanoidConstructionLamp</defName>
-		<label>construction lamp</label>
-		<description>A sturdy utilitarian metal pillar that doubles as a powerful lamp, meant to illuminate otherwise dark factories and support expansive roofing.</description>
-		<designationCategory>Structure</designationCategory>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.25</fillPercent>
-		<pathCost>0</pathCost>
-		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>500</WorkToBuild>
-			<Flammability>0.5</Flammability>
-			<Beauty>0.5</Beauty>
-			<Mass>4</Mass>
-		</statBases>
-		<holdsRoof>true</holdsRoof>
-		<canOverlapZones>false</canOverlapZones>
-		<rotatable>false</rotatable>
-		<fertility>0</fertility>
-		<specialDisplayRadius>8</specialDisplayRadius>
-		<building>
-			<isInert>true</isInert>
-			<ai_chillDestination>false</ai_chillDestination>
-		</building>
-		<size>(1,1)</size>
-		<graphicData>
-			<drawSize>(1,1.25)</drawSize>
-			<drawOffset>(0,0,0.2)</drawOffset>
-			<texPath>Things/Building/Utility/MechanoidConstructionLamp</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shadowData>
-				<volume>(0.3, 0.5, 0.3)</volume>
-				<offset>(0,0,-0.23)</offset>
-			</shadowData>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-		</graphicData>
-		<costList>
-			<Steel>50</Steel>
-			<ComponentSpacer>2</ComponentSpacer>
-		</costList>
-		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>16</glowRadius>
-				<glowColor>(75,181,213,0)</glowColor>
-			</li>
-			<li Class="MechanoidAddon.CompProperties_RoofHolder">
-				<roofHoldingRadius>8</roofHoldingRadius>
-			</li>
-		</comps>
-		<researchPrerequisites>
-			<li>MAO_MechanoidStructures</li>
-		</researchPrerequisites>
-	</ThingDef>
-	
-	
-	<ThingDef ParentName="FurnitureWithQualityBase">
-		<defName>MAO_MechanoidLiquidFreezer</defName>
-		<label>liquid freezer</label>
-		<description>A waist-high chest freezer filled with a thin layer of chemically altered neutroamine that seems to remain stagnate at an incredibly low temperature. Requires no power and will prevent any food within from rotting.</description>
-		<thingClass>Building_Storage</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Utility/MechanoidLiquidFreezer</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(1.5,2)</drawSize>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.4</fillPercent>
-		<castEdgeShadows>true</castEdgeShadows>
-		<statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>4</Mass>
-			<WorkToBuild>500</WorkToBuild>
-			<Flammability>0.5</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<building>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-		</building>
-		<costList>
-			<Steel>25</Steel>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Neutroamine>10</Neutroamine>
-		</costList>
-		<inspectorTabs>
-			<li>ITab_Storage</li>
-		</inspectorTabs>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
-		<surfaceType>Item</surfaceType>
-		<canOverlapZones>false</canOverlapZones>
-		<designationCategory>Furniture</designationCategory>
-		<researchPrerequisites>
-			<li>MAO_MechanoidStructures</li>
-		</researchPrerequisites>
-		<comps>
-			<li Class="MechanoidAddon.CompProperties_PreventDeteoriratingAndSpolining"></li>
-		</comps>
-	</ThingDef>
-</Defs>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: construction lamp -->
+  <MAO_MechanoidConstructionLamp.label>промышленный фонарь</MAO_MechanoidConstructionLamp.label>
+  <!-- EN: A sturdy utilitarian metal pillar that doubles as a powerful lamp, meant to illuminate otherwise dark factories and support expansive roofing. -->
+  <MAO_MechanoidConstructionLamp.description>Крепкий металлический столб исключительно утилитарного предназначения. Освещает цеха и поддерживает потолок.</MAO_MechanoidConstructionLamp.description>
+
+  <!-- EN: liquid freezer -->
+  <MAO_MechanoidLiquidFreezer.label>жидкостный морозильник</MAO_MechanoidLiquidFreezer.label>
+  <!-- EN: A waist-high chest freezer filled with a thin layer of chemically altered neutroamine that seems to remain stagnate at an incredibly low temperature. Requires no power and will prevent any food within from rotting. -->
+  <MAO_MechanoidLiquidFreezer.description>Невысокий морозильник, с тонким слоем видоизменённого нейтроамина, который, похоже, сохраняет невероятно низкую температуру. Не требует энергии для работы и не даёт пище испортиться.</MAO_MechanoidLiquidFreezer.description>
+</LanguageData>

@@ -1,5 +1,6 @@
 ##  Перевод мода [Vanilla Factions Expanded - Mechanoids](https://steamcommunity.com/sharedfiles/filedetails/?id=2329011599)
-### Переведено файлов: 50 из 75.
+### Переведено файлов: 55 из 75.
+Осталось перевести файлы из Keyed и ThingDef.
  
 Подробности и координация на [дискорд сервере](https://discord.gg/Xmbwmgh)
  
