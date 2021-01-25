@@ -1,112 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-	<ThingDef ParentName="BaseVFEMachine">
-		<defName>MAO_Mechanoids_Mender</defName>
-		<label>mender</label>
-		<description>A sturdy semi-autonomous drone slightly taller than an average human. This drone comes standard with a set of diagnostic and medical apparatuses as well an advanced focal deck, capable of on-the-fly scanning and microscopic level analysis. This drone is capable of healing wounds and tending sick equal to that of an amateur level, provided that medicine is provided.</description>
-		<statBases>
-			<MoveSpeed>1.9</MoveSpeed>
-			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.22</ArmorRating_Sharp>
-			<PsychicSensitivity>0.25</PsychicSensitivity>
-			<MedicalTendSpeed>2</MedicalTendSpeed>
-		</statBases>
-		<tools>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>2</power>
-				<cooldownTime>2.6</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			</li>
-		</tools>
-		<race>
-			<intelligence>ToolUser</intelligence>
-			<thinkTreeMain>VFE_Mechanoids_Machine</thinkTreeMain>
-			<body>Lancer</body>
-			<baseBodySize>1</baseBodySize>
-			<baseHealthScale>4</baseHealthScale>
-			<lifeStageAges>
-				<li>
-					<def>MechanoidFullyFormed</def>
-					<minAge>0</minAge>
-					<soundWounded>VFE_Pawn_HandmadeMech_Wounded</soundWounded>
-					<soundDeath>VFE_Pawn_HandmadeMech_Death</soundDeath>
-					<soundCall>VFE_Pawn_HandmadeMech_Call</soundCall>
-				</li>
-			</lifeStageAges>
-			<soundCallIntervalRange>1000~2000</soundCallIntervalRange>
-			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
-		</race>
-		<butcherProducts>
-			<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>20</Plasteel>
-		</butcherProducts>
-		<comps>
-			<li Class="VFE.Mechanoids.CompProperties_Machine">
-				<hoursActive>96</hoursActive>
-			</li>
-		</comps>
-	</ThingDef>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: mender -->
+  <MAO_Mechanoids_Mender.label>лекарь</MAO_Mechanoids_Mender.label>
+  <!-- EN: A sturdy semi-autonomous drone slightly taller than an average human. This drone comes standard with a set of diagnostic and medical apparatuses as well an advanced focal deck, capable of on-the-fly scanning and microscopic level analysis. This drone is capable of healing wounds and tending sick equal to that of an amateur level, provided that medicine is provided. -->
+  <MAO_Mechanoids_Mender.description>Крепкий полуавтономный дрон ростом чуть выше человека. В стандартный комплект поставки входит набор диагностических и медицинских приборов, а также продвинутой анализирующей системой, способной на лету сканировать и анализировать даже на микроскопическом уровне. Лекарь способен обрабатывать раны и лечить болезни на уровне любителя, если, конечно, хватает лекарств.</MAO_Mechanoids_Mender.description>
+  <!-- EN: head -->
+  <MAO_Mechanoids_Mender.tools.head.label>голова</MAO_Mechanoids_Mender.tools.head.label>
 
-	<ThingDef ParentName="BaseVFEMachine">
-		<defName>MAO_Mechanoids_Assembler</defName>
-		<label>assembler</label>
-		<description>A sturdy semi-autonomous drone slightly taller than an average human. A wide corneal auspex and a set of simple tools allow this drone to do things such as swiftly assemble furniture or erect walls at an amateur skill level.</description>
-		<statBases>
-			<MoveSpeed>1.9</MoveSpeed>
-			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.22</ArmorRating_Sharp>
-			<PsychicSensitivity>0.25</PsychicSensitivity>
-			<ConstructSuccessChance>2</ConstructSuccessChance>
-		</statBases>
-		<tools>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>2</power>
-				<cooldownTime>2.6</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-			</li>
-		</tools>
-		<race>
-			<intelligence>ToolUser</intelligence>
-			<thinkTreeMain>VFE_Mechanoids_Machine</thinkTreeMain>
-			<body>Lancer</body>
-			<baseBodySize>1</baseBodySize>
-			<baseHealthScale>4</baseHealthScale>
-			<lifeStageAges>
-				<li>
-					<def>MechanoidFullyFormed</def>
-					<minAge>0</minAge>
-					<soundWounded>VFE_Pawn_HandmadeMech_Wounded</soundWounded>
-					<soundDeath>VFE_Pawn_HandmadeMech_Death</soundDeath>
-					<soundCall>VFE_Pawn_HandmadeMech_Call</soundCall>
-				</li>
-			</lifeStageAges>
-			<soundCallIntervalRange>1000~2000</soundCallIntervalRange>
-			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
-		</race>
-		<butcherProducts>
-			<VFE_ComponentMechanoid>1</VFE_ComponentMechanoid>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>20</Plasteel>
-		</butcherProducts>
-		<comps>
-			<li Class="VFE.Mechanoids.CompProperties_Machine">
-				<hoursActive>96</hoursActive>
-			</li>
-		</comps>
-	</ThingDef>
-</Defs>
+  <!-- EN: assembler -->
+  <MAO_Mechanoids_Assembler.label>монтажник</MAO_Mechanoids_Assembler.label>
+  <!-- EN: A sturdy semi-autonomous drone slightly taller than an average human. A wide corneal auspex and a set of simple tools allow this drone to do things such as swiftly assemble furniture or erect walls at an amateur skill level. -->
+  <MAO_Mechanoids_Assembler.description>Крепкий полуавтономный дрон ростом чуть выше человека. Продвинутое зрительное устройство и набор простых инструментов позволяют собирать вещи и возводить стены на уровне любителя.</MAO_Mechanoids_Assembler.description>
+  <!-- EN: head -->
+  <MAO_Mechanoids_Assembler.tools.head.label>голова</MAO_Mechanoids_Assembler.tools.head.label>
+</LanguageData>

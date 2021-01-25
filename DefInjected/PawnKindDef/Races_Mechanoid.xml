@@ -25,7 +25,7 @@
   <VFE_Mech_Pikeman.label>драгун</VFE_Mech_Pikeman.label>
   <VFE_Mech_Pikeman.labelPlural>драгуны</VFE_Mech_Pikeman.labelPlural>
 
-  <!-- EN: advanced carpenter -->
+  <!-- EN: carpenter -->
   <VFE_Mech_Carpenter.label>плотник</VFE_Mech_Carpenter.label>
   <VFE_Mech_Carpenter.labelPlural>плотники</VFE_Mech_Carpenter.labelPlural>
 </LanguageData>

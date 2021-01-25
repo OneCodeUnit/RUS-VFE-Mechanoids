@@ -1,76 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-
-
-	<!-- Carpenter - slow deconstructor -->
-
-	<ThingDef ParentName="BaseMechanoidWalker">
-		<defName>VFE_AncientMech_AncientCarpenter</defName>
-		<label>carpenter</label>
-		<description>A lurching, quadrupedal utility mechanoid with thick armor meant to absorb enemy fire while rapidly dissembling enemy fortifications using simple sledges and drills. Infantry present during the mechanoid wars were known to assemble decoy pillboxes or barricades as the carpenter mechanoids could not distinguish between them and structures being actively used.</description>
-		<statBases>
-			<MoveSpeed>2.5</MoveSpeed>
-			<ArmorRating_Blunt>0.32</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-			<PsychicSensitivity>0.75</PsychicSensitivity>
-		</statBases>
-		<tools>
-			<li>
-				<label>front left leg</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>12.0</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-			</li>
-			<li>
-				<label>front right leg</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>12.0</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-			</li>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>8.5</power>
-				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>
-			</li>
-		</tools>
-		<race>
-			<intelligence>ToolUser</intelligence>
-			<thinkTreeMain>VFE_Mech_AncientCarpenter</thinkTreeMain>
-			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
-			<body>Pikeman</body>
-			<baseBodySize>1.8</baseBodySize>
-			<baseHealthScale>5.32</baseHealthScale>
-			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
-			<lifeStageAges Inherit="False">
-				<li>
-					<def>MechanoidFullyFormed</def>
-					<minAge>0</minAge>
-					<soundWounded>Pawn_Mech_Pikeman_Wounded</soundWounded>
-					<soundDeath>Pawn_Mech_Pikeman_Death</soundDeath>
-					<soundCall>Pawn_Mech_Pikeman_Call</soundCall>
-				</li>
-			</lifeStageAges>
-		</race>
-		<butcherProducts Inherit='False'>
-			<Steel>30</Steel>
-			<Plasteel>10</Plasteel>
-		</butcherProducts>
-	</ThingDef>
-
-</Defs>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: carpenter -->
+  <VFE_AncientMech_AncientCarpenter.label>плотник</VFE_AncientMech_AncientCarpenter.label>
+  <!-- EN: A lurching, quadrupedal utility mechanoid with thick armor meant to absorb enemy fire while rapidly dissembling enemy fortifications using simple sledges and drills. Infantry present during the mechanoid wars were known to assemble decoy pillboxes or barricades as the carpenter mechanoids could not distinguish between them and structures being actively used. -->
+  <VFE_AncientMech_AncientCarpenter.description>Неуклюжий четвероногий механоид поддержки, разбирающий вражеские укрепления при помощи простых кувалд и дрелей не обращая внимания на стрельбу вокруг. Пехота времён механоидных войн, собирала ложные доты или баррикады, поскольку плотники не могли отличить их от настоящих сооружений.</VFE_AncientMech_AncientCarpenter.description>
+  <!-- EN: front left leg -->
+  <VFE_AncientMech_AncientCarpenter.tools.front_left_leg.label>передняя левая нога</VFE_AncientMech_AncientCarpenter.tools.front_left_leg.label>
+  <!-- EN: front right leg -->
+  <VFE_AncientMech_AncientCarpenter.tools.front_right_leg.label>передняя правая нога</VFE_AncientMech_AncientCarpenter.tools.front_right_leg.label>
+  <!-- EN: head -->
+  <VFE_AncientMech_AncientCarpenter.tools.head.label>голова</VFE_AncientMech_AncientCarpenter.tools.head.label>
+</LanguageData>

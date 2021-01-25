@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_VFE_Gun_CombatMechanoidGun.label>изготовить ручную мини-турель</Make_VFE_Gun_CombatMechanoidGun.label>
+  <Make_VFE_Gun_CombatMechanoidGun.description>Изготовить ручную мини-турель.</Make_VFE_Gun_CombatMechanoidGun.description>
+  <Make_VFE_Gun_CombatMechanoidGun.jobString>изготавливает ручную мини-турель</Make_VFE_Gun_CombatMechanoidGun.jobString>
+
+  <Make_VFE_Gun_ChargeBlasterLightBase.label>изготовить лёгкий бластер</Make_VFE_Gun_ChargeBlasterLightBase.label>
+  <Make_VFE_Gun_ChargeBlasterLightBase.description>Изготовить лёгкий бластер.</Make_VFE_Gun_ChargeBlasterLightBase.description>
+  <Make_VFE_Gun_ChargeBlasterLightBase.jobString>изготавливает лёгкий бластер</Make_VFE_Gun_ChargeBlasterLightBase.jobString>
+
+  <Make_VFE_Gun_InfernoSpewerBase.label>изготовить огнемёт «инферно»</Make_VFE_Gun_InfernoSpewerBase.label>
+  <Make_VFE_Gun_InfernoSpewerBase.description>Изготовить огнемёт «инферно».</Make_VFE_Gun_InfernoSpewerBase.description>
+  <Make_VFE_Gun_InfernoSpewerBase.jobString>изготавливает огнемёт «инферно»</Make_VFE_Gun_InfernoSpewerBase.jobString>
+
+  <Make_VFE_Gun_AdvancedChargeBlasterLight.label>изготовить продвинутый лёгкий бластер</Make_VFE_Gun_AdvancedChargeBlasterLight.label>
+  <Make_VFE_Gun_AdvancedChargeBlasterLight.description>Изготовить продвинутый лёгкий бластер.</Make_VFE_Gun_AdvancedChargeBlasterLight.description>
+  <Make_VFE_Gun_AdvancedChargeBlasterLight.jobString>изготавливает продвинутый лёгкий бластер</Make_VFE_Gun_AdvancedChargeBlasterLight.jobString>
+
+  <Make_VFE_Gun_AdvancedInfernoSpewer.label>изготовить продвинутый огнемёт «инферно»</Make_VFE_Gun_AdvancedInfernoSpewer.label>
+  <Make_VFE_Gun_AdvancedInfernoSpewer.description>Изготовить продвинутый огнемёт «инферно».</Make_VFE_Gun_AdvancedInfernoSpewer.description>
+  <Make_VFE_Gun_AdvancedInfernoSpewer.jobString>изготавливает продвинутый огнемёт «инферно»</Make_VFE_Gun_AdvancedInfernoSpewer.jobString>
+
+  <Make_VFE_Gun_AdvancedChargeBlasterHeavy.label>изготовить продвинутый тяжёлый бластер</Make_VFE_Gun_AdvancedChargeBlasterHeavy.label>
+  <Make_VFE_Gun_AdvancedChargeBlasterHeavy.description>Изготовить продвинутый тяжёлый бластер.</Make_VFE_Gun_AdvancedChargeBlasterHeavy.description>
+  <Make_VFE_Gun_AdvancedChargeBlasterHeavy.jobString>изготавливает продвинутый тяжёлый бластер</Make_VFE_Gun_AdvancedChargeBlasterHeavy.jobString>
+
+  <Make_VFE_Gun_AdvancedInfernoCannon.label>изготовить продвинутая инферно-пушка</Make_VFE_Gun_AdvancedInfernoCannon.label>
+  <Make_VFE_Gun_AdvancedInfernoCannon.description>Изготовить продвинутая инферно-пушка.</Make_VFE_Gun_AdvancedInfernoCannon.description>
+  <Make_VFE_Gun_AdvancedInfernoCannon.jobString>изготавливает продвинутая инферно-пушка</Make_VFE_Gun_AdvancedInfernoCannon.jobString>
+
+  <Make_VFE_Gun_AdvancedNeedle.label>изготовить продвинутый игломёт</Make_VFE_Gun_AdvancedNeedle.label>
+  <Make_VFE_Gun_AdvancedNeedle.description>Изготовить продвинутый игломёт.</Make_VFE_Gun_AdvancedNeedle.description>
+  <Make_VFE_Gun_AdvancedNeedle.jobString>изготавливает продвинутый игломёт</Make_VFE_Gun_AdvancedNeedle.jobString>
+
+  <Make_VFE_Gun_AdvancedChargeLance.label>изготовить продвинутое энергокопьё</Make_VFE_Gun_AdvancedChargeLance.label>
+  <Make_VFE_Gun_AdvancedChargeLance.description>Изготовить продвинутое энергокопьё.</Make_VFE_Gun_AdvancedChargeLance.description>
+  <Make_VFE_Gun_AdvancedChargeLance.jobString>изготавливает продвинутое энергокопьё</Make_VFE_Gun_AdvancedChargeLance.jobString>
+</LanguageData>
