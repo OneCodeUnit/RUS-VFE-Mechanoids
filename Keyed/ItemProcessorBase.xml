@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<!-- Generic -->
-
-
-	<VFEM_BringIngredients>Extract Ingredients</VFEM_BringIngredients>
-	<VFEM_BringIngredientsDesc>Extract ingredients from adjacent hoppers to start the process</VFEM_BringIngredientsDesc>
-	<VFEMech.MustPlaceOnFactoryFloor>Must be placed directly on a factory floor.</VFEMech.MustPlaceOnFactoryFloor>
-	<VFEMech.MustPlaceOnPowerConduit>Must be placed directly on a power conduit.</VFEMech.MustPlaceOnPowerConduit>
+  <!-- EN: Extract Ingredients -->
+	<VFEM_BringIngredients>Извлечь ингредиенты</VFEM_BringIngredients>
+  <!-- EN: Extract ingredients from adjacent hoppers to start the process -->
+	<VFEM_BringIngredientsDesc>Необходимо извлечь ингредиенты из воронок, чтобы начать процесс</VFEM_BringIngredientsDesc>
+  <!-- EN: Must be placed directly on a factory floor. -->
+	<VFEMech.MustPlaceOnFactoryFloor>Этот объект следует размещать непосредственно на заводской плитке.</VFEMech.MustPlaceOnFactoryFloor>
+  <!-- EN: Must be placed directly on a power conduit. -->
+	<VFEMech.MustPlaceOnPowerConduit>Этот объект следует размещать непосредственно на кабеле.</VFEMech.MustPlaceOnPowerConduit>
 </LanguageData>

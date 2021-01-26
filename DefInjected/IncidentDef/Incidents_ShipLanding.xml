@@ -6,7 +6,7 @@
   <!-- EN: {FACTION_name} destroyed {1} -->
   <VFEM_MechShipDestroyed.letterLabel>Фракция {FACTION_name} уничтожила {1}</VFEM_MechShipDestroyed.letterLabel>
   <!-- EN: Through clever strategies, large number of casualties and incredible perseverance, {FACTION_name} managed to destroy {1}. -->
-  <VFEM_MechShipDestroyed.letterText>Благодаря хитрому плану, большим жертвам или невероятному упорству фракция {FACTION_name} уничтожила {1}.</VFEM_MechShipDestroyed.letterText>
+  <VFEM_MechShipDestroyed.letterText>Благодаря хитрому плану, большим жертвам или же невероятному упорству, фракция {FACTION_name} уничтожила {1}.</VFEM_MechShipDestroyed.letterText>
 
   <!-- EN: ship landing Frigate -->
   <VFEM_ShipLandFrigate.label>посадка фрегата</VFEM_ShipLandFrigate.label>

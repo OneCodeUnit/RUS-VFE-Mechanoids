@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
 <Defs>
   <ThingDef ParentName="BuildingBase">
     <defName>VFE_Mechanoids_AutocleanerBase</defName>
@@ -586,3 +587,4 @@
 	<drawOffscreen>true</drawOffscreen>
   </ThingDef>
 </Defs>
+-->
