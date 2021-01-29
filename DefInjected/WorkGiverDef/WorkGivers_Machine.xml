@@ -8,7 +8,7 @@
   <VFE_Mechanoids_RepairMachine.verb>починить</VFE_Mechanoids_RepairMachine.verb>
 
   <!-- EN: attach turret -->
-  <VFE_Mechanoids_AttachTurret.label>прикреплять турели</VFE_Mechanoids_AttachTurret.label>
+  <VFE_Mechanoids_AttachTurret.label>прикреплять к платформе</VFE_Mechanoids_AttachTurret.label>
   <!-- EN: attaching turret to -->
   <VFE_Mechanoids_AttachTurret.gerund>прикрепить к</VFE_Mechanoids_AttachTurret.gerund>
   <!-- EN: attach turret to -->

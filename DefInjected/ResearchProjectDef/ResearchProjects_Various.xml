@@ -18,7 +18,7 @@
   <!-- EN: munitions and armaments factory -->
   <VFE_MunitionsandArmamentsFactory.label>производство оружия и боеприпасов</VFE_MunitionsandArmamentsFactory.label>
   <!-- EN: Research a series of machines that grant the ability to automatically refine and clarify chemfuel from organic matter as well as process it further into weaponry and large-scale mortar shells. -->
-  <VFE_MunitionsandArmamentsFactory.description>Изучите машины, способные автоматически обогащать и очищать огранику с целью получения химтоплива для создания оружия и огромных миномётных снарядов.</VFE_MunitionsandArmamentsFactory.description>
+  <VFE_MunitionsandArmamentsFactory.description>Изучите машины, способные автоматически обогащать и очищать органику с целью получения химтоплива для создания оружия и огромных миномётных снарядов.</VFE_MunitionsandArmamentsFactory.description>
 
   <!-- EN: wearables and textiles factory -->
   <VFE_WearablesandTextilesFactory.label>производство одежды и тканей</VFE_WearablesandTextilesFactory.label>
@@ -43,5 +43,5 @@
   <!-- EN: automated defensive measures -->
   <VFE_AutomatedDefensiveMeasures.label>автоматическая защита</VFE_AutomatedDefensiveMeasures.label>
   <!-- EN: Research the ability to weaponize automated drones for a variety of purposes including mobile turret platforms, mortars, riot control and other defensive countermeasures. -->
-  <VFE_AutomatedDefensiveMeasures.description>Откройте возможность вооружить ваших дронов для различных задач: создание подвижных турелей, миномётов, охраны и других оборонительных мер.</VFE_AutomatedDefensiveMeasures.description>
+  <VFE_AutomatedDefensiveMeasures.description>Откройте возможность вооружить ваших дронов для различных задач: создание подвижных турельных платформ, миномётов, охраны и других оборонительных мер.</VFE_AutomatedDefensiveMeasures.description>
 </LanguageData>

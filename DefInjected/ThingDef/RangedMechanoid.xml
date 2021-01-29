@@ -43,7 +43,7 @@
   <!-- EN: barrel -->
   <VFE_Gun_AdvancedNeedle.tools.barrel.label>ствол</VFE_Gun_AdvancedNeedle.tools.barrel.label>
 
-  <!-- EN: advanced needle gun -->
+  <!-- EN: advanced charge lance -->
   <VFE_Gun_AdvancedChargeLance.label>продвинутое энергокопьё</VFE_Gun_AdvancedChargeLance.label>
   <!-- EN: A heavier version of the pulse-charged lance weapon. Often fielded by mechanoid marksmen, the advanced charge lance is similar to it’s predecessor but exchanges size and time to aim for a significant increase in firepower. -->
   <VFE_Gun_AdvancedChargeLance.description>Более «тяжёлая» версия энергокопья. Излюбленное оружие стрелков меаноидов. Очень похожа на свою обычную версию, но улучшенная эргономика заметно улучшает огневую мощь.</VFE_Gun_AdvancedChargeLance.description>
