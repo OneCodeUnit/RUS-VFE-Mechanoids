@@ -13,13 +13,13 @@
   <VFE_ClimateAdjuster.endMessage>Заморозки закончились.</VFE_ClimateAdjuster.endMessage>
 
   <!-- EN: EMI dynamo -->
-  <VFE_EMIDynamo.label>ЭМИ генератор</VFE_EMIDynamo.label>
+  <VFE_EMIDynamo.label>ЭМИ-генератор</VFE_EMIDynamo.label>
   <!-- EN: EMI dynamo -->
-  <VFE_EMIDynamo.letterText>ЭМИ генератор</VFE_EMIDynamo.letterText>
+  <VFE_EMIDynamo.letterText>ЭМИ-генератор</VFE_EMIDynamo.letterText>
   <!-- EN: EMI dynamo -->
-  <VFE_EMIDynamo.description>ЭМИ генератор</VFE_EMIDynamo.description>
+  <VFE_EMIDynamo.description>ЭМИ-генератор</VFE_EMIDynamo.description>
   <!-- EN: EMI dynamo -->
-  <VFE_EMIDynamo.descriptionFuture>ЭМИ генератор</VFE_EMIDynamo.descriptionFuture>
+  <VFE_EMIDynamo.descriptionFuture>ЭМИ-генератор</VFE_EMIDynamo.descriptionFuture>
   <!-- EN: EMI dynamo -->
-  <VFE_EMIDynamo.endMessage>ЭМИ генератор</VFE_EMIDynamo.endMessage>
+  <VFE_EMIDynamo.endMessage>ЭМИ-генератор</VFE_EMIDynamo.endMessage>
 </LanguageData>

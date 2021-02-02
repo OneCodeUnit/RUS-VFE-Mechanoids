@@ -43,7 +43,7 @@
   <!-- EN: Cannot shoot: Out of battery -->
   <VFE_Turret_AutoInfernoCannon.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: батарея разряжена</VFE_Turret_AutoInfernoCannon.comps.CompRefuelable.outOfFuelMessage>
   
-  <!-- EN: auto charge lance -->
+  <!-- EN: auto inferno cannon -->
   <VFE_Gun_AutoInfernoCannon.label>автоматическая инферно-пушка</VFE_Gun_AutoInfernoCannon.label>
   <!-- EN: A salvaged mechanoid inferno cannon made to be mounted on a turret. -->
   <VFE_Gun_AutoInfernoCannon.description>Уцелевшая инферно-пушка механоидов. Можно установить на турельную платформу.</VFE_Gun_AutoInfernoCannon.description>
