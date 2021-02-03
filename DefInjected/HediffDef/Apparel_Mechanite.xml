@@ -3,7 +3,7 @@
   <!-- EN: Mechanite clothing optimisation -->
   <MAO_MechaniteUnderArmorHediff.label>механитовая оптимизация ткани</MAO_MechaniteUnderArmorHediff.label>
   <!-- EN: a mechanite optimisation -->
-  <MAO_MechaniteUnderArmorHediff.label>механитовая оптимизация</MAO_MechaniteUnderArmorHediff.label>
+  <MAO_MechaniteUnderArmorHediff.labelNoun>механитовая оптимизация</MAO_MechaniteUnderArmorHediff.labelNoun>
   <!-- EN: Embedded mechanites are optimizing this individuals digestive tract, suppressing their need to eat. -->
   <MAO_MechaniteUnderArmorHediff.description>Механиты оптимизируют работу пищеварения и подавляют чувство голода.</MAO_MechaniteUnderArmorHediff.description>
 </LanguageData>

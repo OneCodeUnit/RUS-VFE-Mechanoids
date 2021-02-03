@@ -8,4 +8,6 @@
   <VFE_Gun_CombatMechanoidGun.tools.stock.label>рукоять</VFE_Gun_CombatMechanoidGun.tools.stock.label>
   <!-- EN: barrel -->
   <VFE_Gun_CombatMechanoidGun.tools.barrel.label>ствол</VFE_Gun_CombatMechanoidGun.tools.barrel.label>
+
+  <VFE_Gun_CombatMechanoidGun.verbs.Verb_Shoot.label>ручная мини-турель</VFE_Gun_CombatMechanoidGun.verbs.Verb_Shoot.label>
 </LanguageData>

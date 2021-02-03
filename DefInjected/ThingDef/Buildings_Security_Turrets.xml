@@ -15,6 +15,7 @@
   <VFE_Gun_AutoChargeBlaster.label>автоматический бластер</VFE_Gun_AutoChargeBlaster.label>
   <!-- EN: A salvaged mechanoid charge blaster made to be mounted on a turret. -->
   <VFE_Gun_AutoChargeBlaster.description>Уцелевший бластер механоидов. Можно установить установить на турельную платформу.</VFE_Gun_AutoChargeBlaster.description>
+  <VFE_Gun_AutoChargeBlaster.verbs.Verb_Shoot.label>автоматический бластер</VFE_Gun_AutoChargeBlaster.verbs.Verb_Shoot.label>
 
   <!-- EN: charge lance turret -->
   <VFE_Turret_AutoChargeLance.label>энергетическая турель</VFE_Turret_AutoChargeLance.label>
@@ -31,6 +32,7 @@
   <VFE_Gun_AutoChargeLance.label>автоматическое энергокопьё</VFE_Gun_AutoChargeLance.label>
   <!-- EN: A salvaged mechanoid charge lance made to be mounted on a turret. -->
   <VFE_Gun_AutoChargeLance.description>Уцелевшее энергокопьё механоидов. Можно установить на турельную платформу.</VFE_Gun_AutoChargeLance.description>
+  <VFE_Gun_AutoChargeLance.verbs.Verb_Shoot.label>автоматическое энергокопьё</VFE_Gun_AutoChargeLance.verbs.Verb_Shoot.label>
 
   <!-- EN: inferno cannon turret -->
   <VFE_Turret_AutoInfernoCannon.label>инфернальная турель</VFE_Turret_AutoInfernoCannon.label>
@@ -47,6 +49,7 @@
   <VFE_Gun_AutoInfernoCannon.label>автоматическая инферно-пушка</VFE_Gun_AutoInfernoCannon.label>
   <!-- EN: A salvaged mechanoid inferno cannon made to be mounted on a turret. -->
   <VFE_Gun_AutoInfernoCannon.description>Уцелевшая инферно-пушка механоидов. Можно установить на турельную платформу.</VFE_Gun_AutoInfernoCannon.description>
+  <VFE_Gun_AutoInfernoCannon.verbs.Verb_Shoot.label>автоматическая инферно-пушка</VFE_Gun_AutoInfernoCannon.verbs.Verb_Shoot.label>
 
   <!-- EN: auto-mortar -->
   <VFE_Turret_AutoMortar.label>автоминомёт</VFE_Turret_AutoMortar.label>
@@ -63,4 +66,5 @@
   <VFE_AutoMortar.label>автоминомёт</VFE_AutoMortar.label>
   <!-- EN: Automatic mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
   <VFE_AutoMortar.description>Уцелевший автоминомёт механоидов. Перекидывает снаряды через стену. Совершенно неточный, но дальнобойный.</VFE_AutoMortar.description>
+  <VFE_AutoMortar.verbs.Verb_Shoot.label>автоминомёт</VFE_AutoMortar.verbs.Verb_Shoot.label>
 </LanguageData>

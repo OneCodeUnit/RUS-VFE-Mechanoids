@@ -51,7 +51,7 @@
   <!-- EN: The mechanoid ship has landed. The quest [resolvedQuestName] has expired. -->
   <VFE_OpportunitySite_MechanoidShipLanding.LetterTextQuestExpired.slateRef>Механоиды высадились на поверхность. Время, отведённое для задания [resolvedQuestName], истекло.</VFE_OpportunitySite_MechanoidShipLanding.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest expired (failed to destroy beacons 2 ): [resolvedQuestName] -->
-  <VFE_OpportunitySite_MechanoidShipLanding.LetterLabelQuestExpired.slateRef>Время задания истекло: [resolvedQuestName]</VFE_OpportunitySite_MechanoidShipLanding.LetterLabelQuestExpired.slateRef>
+  <VFE_OpportunitySite_MechanoidShipLanding.root.nodes.WorldObjectTimeout-1.node.nodes.Letter.label.slateRef>Время задания истекло: [resolvedQuestName]</VFE_OpportunitySite_MechanoidShipLanding.root.nodes.WorldObjectTimeout-1.node.nodes.Letter.label.slateRef>
   <!-- EN: The mechanoid ship has landed. The quest [resolvedQuestName] has expired. -->
-  <VFE_OpportunitySite_MechanoidShipLanding.LetterTextQuestExpired.slateRef>Механоиды высадились на поверхность. Время, отведённое для задания [resolvedQuestName], истекло.</VFE_OpportunitySite_MechanoidShipLanding.LetterTextQuestExpired.slateRef>
+  <VFE_OpportunitySite_MechanoidShipLanding.root.nodes.WorldObjectTimeout-1.node.nodes.Letter.text.slateRef>Механоиды высадились на поверхность. Время, отведённое для задания [resolvedQuestName], истекло.</VFE_OpportunitySite_MechanoidShipLanding.root.nodes.WorldObjectTimeout-1.node.nodes.Letter.text.slateRef>
 </LanguageData>
