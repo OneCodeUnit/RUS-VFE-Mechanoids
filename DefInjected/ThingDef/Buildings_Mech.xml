@@ -23,7 +23,7 @@
   <!-- EN: uplink module -->
   <VFE_MechanoidUplink.label>модуль связи</VFE_MechanoidUplink.label>
   <!-- EN: An uplink module, directly connected to the mechanoid swarm. It is responsible for obtaining order updates from war programmers in orbit. It greatly enhances mechanoid capabilities in range, but destroying it will sever the connection with the fleet, greatly harming the mechanoid forces.  It can be destroyed to obtain valuable, exotic resources. This element is usually a part of a much larger ship. -->
-  <VFE_MechanoidUplink.description>Модуль прямой связи с роем. Принимает приказы и обновления директив от стратегов из орбитального штаба. Значительно механоидов в радиусе действия, но уничтожения модуля связи разорвёт связь с флотом и сильно навредит наземным силам. Является частью большого корабля механоидов. Содержит ценные экзотические ресурсы.</VFE_MechanoidUplink.description>
+  <VFE_MechanoidUplink.description>Модуль прямой связи с роем. Принимает приказы и обновления директив от стратегов из орбитального штаба. Значительно усиливает механоидов в радиусе действия, но уничтожения модуля связи разорвёт связь с флотом и сильно навредит наземным силам. Является частью большого корабля механоидов. Содержит ценные экзотические ресурсы.</VFE_MechanoidUplink.description>
 
   <!-- EN: reactor -->
   <VFE_MechanoidReactor.label>реактор</VFE_MechanoidReactor.label>
