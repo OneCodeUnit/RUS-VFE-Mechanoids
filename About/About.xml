@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Русский язык для VFE - Mechanoids</name>
+	<author>OliveWizzard</author>
+	<supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+			<packageId>OskarPotocki.VFE.Mechanoid</packageId>
+			<displayName>Vanilla Factions Expanded - Mechanoids</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2329011599</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<packageId>RU.VFE.Mechanoid</packageId>
+	<description>Русский язык для Vanilla Factions Expanded - Mechanoids и пары сторонних модов: Craftable Mechanoid Components и Mechanoids : Unoffical Add-On.
+  </description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>OskarPotocki.VFE.Mechanoid</li>
+		<li>lc.cmc</li>
+		<li>isorex.mechanoidsaddon</li>
+	</loadAfter>
+</ModMetaData>
